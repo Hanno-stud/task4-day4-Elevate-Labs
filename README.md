@@ -115,21 +115,25 @@ weighted avg       0.97      0.97      0.97       114
 ---
 
 ### 3️⃣ ROC Curve
-![ROC Curve Output]({{IMAGE_3}})
+```text
+ROC-AUC Score: 0.9974
+```
+![ROC Curve Output](https://github.com/user-attachments/assets/0a4fc446-b9a8-4df7-868e-2479eeb32574)
+
 
 ---
 
-### 4️⃣ Confusion Matrix at Custom Threshold (Example: 0.3)
+### 4️⃣ Confusion Matrix at Custom Threshold 0.3
 ```text  
-[[TN FP]  
- [FN TP]]  
+ [[67  4]
+ [ 1 42]]
 ``` 
-![Threshold Tuning Output]({{IMAGE_4}})
 
 ---
 
 ### 5️⃣ Sigmoid Function Curve
-![Sigmoid Function Plot]({{IMAGE_5}})
+![Sigmoid Function Plot](https://github.com/user-attachments/assets/5ce092f6-76d3-4f87-be98-75085b65e8a3)
+
 
 ---
 
@@ -142,7 +146,7 @@ weighted avg       0.97      0.97      0.97       114
 ---
 
 ## 🙋‍♂️ Author
-**Your Name**  
+**IVIN SANTHOSH**  
 Python Developer | Machine Learning Enthusiast
 
 ---
@@ -150,13 +154,6 @@ Python Developer | Machine Learning Enthusiast
 ## 🙏 Acknowledgments
 - Thanks to Scikit-learn, Matplotlib, and Seaborn documentation teams.
 - Breast Cancer Wisconsin Dataset provided via Kaggle.
-
----
-
-## ✅ Instructions:
-- Replace `https://github.com/your-username/BreastCancer-Logistic-Regression.git` with your actual GitHub repository URL.
-- Replace `Your Name` with your actual name.
-- Replace `{{IMAGE_1}}` to `{{IMAGE_5}}` with your real GitHub image URLs.
 
 ---
 
