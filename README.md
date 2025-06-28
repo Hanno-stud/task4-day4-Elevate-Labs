@@ -1,8 +1,12 @@
 # 🔍 Task 4: Logistic Regression Classifier – Breast Cancer Dataset
+<br/>
 
 ## 📌 Project Overview
+
 This project builds a **Binary Classification Model using Logistic Regression** on the **Breast Cancer Wisconsin Dataset**.  
 The system classifies whether a tumor is **Benign (0)** or **Malignant (1)** using logistic regression and evaluates the model with several performance metrics.
+
+<br/>
 
 ---
 
@@ -18,6 +22,8 @@ The system classifies whether a tumor is **Benign (0)** or **Malignant (1)** usi
 - ✅ Threshold tuning and performance impact demonstration
 - ✅ [Sigmoid function](https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/) explanation with visualization
 
+<br/>
+
 ---
 
 ## 🛠️ Tools & Libraries Used
@@ -25,6 +31,8 @@ The system classifies whether a tumor is **Benign (0)** or **Malignant (1)** usi
 - [Pandas](https://pandas.pydata.org/) – Data handling
 - [Scikit-learn](https://scikit-learn.org/stable/) – Model building and evaluation
 - [Matplotlib](https://matplotlib.org/) & [Seaborn](https://seaborn.pydata.org/) – Visualizations
+
+<br/>
 
 ---
 
@@ -35,13 +43,15 @@ The system classifies whether a tumor is **Benign (0)** or **Malignant (1)** usi
   - **M (Malignant)** → 1  
   - **B (Benign)** → 0
 
+<br/>
+
 ---
 
 ## 🚀 Setup Instructions
 
 1. **Clone the Repository**  
    ```bash  
-   git clone [https://github.com/your-username/BreastCancer-Logistic-Regression.git](https://github.com/Hanno-stud/task4-day4-Elevate-Labs.git)  
+   git clone https://github.com/Hanno-stud/task4-day4-Elevate-Labs.git
    ```
 
 2. **Navigate to the Project Directory**  
@@ -54,10 +64,17 @@ The system classifies whether a tumor is **Benign (0)** or **Malignant (1)** usi
    pip install pandas scikit-learn matplotlib seaborn  
    ```
 
-4. **Run the Python Script or Notebook**  
+4. **Run the Google Colab Python Notebook**  
+   ```bash  
+   Go to 'Google Colab'  >>  Copy 'Classification_with_Logistic_Regression.ipynb' file there...
+   ```
+
+5. **Run the Python Script (Optional)**  
    ```bash  
    python logistic_regression.py
    ```
+
+<br/>
 
 ---
 
@@ -87,9 +104,11 @@ The system classifies whether a tumor is **Benign (0)** or **Malignant (1)** usi
 ### 6️⃣ Threshold Tuning
 - Evaluated model performance at custom threshold (e.g., 0.3).
 
+<br/>
+
 ---
 
-## 📸 Sample Outputs
+## 📸 Real Outputs
 
 ### 1️⃣ Confusion Matrix
 ```text  
@@ -134,6 +153,7 @@ ROC-AUC Score: 0.9974
 ### 5️⃣ Sigmoid Function Curve
 ![Sigmoid Function Plot](https://github.com/user-attachments/assets/5ce092f6-76d3-4f87-be98-75085b65e8a3)
 
+<br/>
 
 ---
 
@@ -143,11 +163,15 @@ ROC-AUC Score: 0.9974
 - Explore advanced model evaluation with cross-validation.
 - Deploy the model using Flask or FastAPI.
 
+<br/>
+
 ---
 
 ## 🙋‍♂️ Author
 **IVIN SANTHOSH**  
 Python Developer | Machine Learning Enthusiast
+
+<br/>
 
 ---
 
@@ -155,11 +179,6 @@ Python Developer | Machine Learning Enthusiast
 - Thanks to Scikit-learn, Matplotlib, and Seaborn documentation teams.
 - Breast Cancer Wisconsin Dataset provided via Kaggle.
 
+<br/>
+
 ---
-
-If you’d like, I can also help you:
-- Design badges
-- Build checklists
-- Create GitHub project boards
-
-Let me know if you’d like me to assist further! 😊
